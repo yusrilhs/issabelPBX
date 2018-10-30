@@ -50,7 +50,7 @@ These new entries, will cause the following entries to be obsolete (you can safe
 	AMPDBPASS
 	
 That's it. Be sure that apache (or whatever web server you are using) has
-write access to the sqlite3 databse file. Usually, these commands will be enough:
+write access to the sqlite3 database file. Usually, these commands will be enough:
 
 	chown www-data.www-data /var/lib/asterisk/issabelpbx.db
 	chmod g+rw /var/lib/issabelpbx/issabelpbx.db
